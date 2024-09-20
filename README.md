@@ -25,7 +25,7 @@ To run the calculator locally, follow these steps:
 
 2. Navigate to the project folder:
     ```bash
-    cd ios-style-calculator
+    cd ios-calculator
     ```
 
 3. Open the `index.html` file in your web browser.
@@ -36,9 +36,7 @@ To run the calculator locally, follow these steps:
 - **Advanced Operations**: Use the additional buttons for square root, power, and trigonometric functions.
 - **History**: View the history of your calculations above the display area.
 
-## Demo
 
-[Insert a link to a live demo if available.]
 
 ## Screenshots
 
