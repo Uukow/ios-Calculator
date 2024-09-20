@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iOS Calculator Abdulkadir Uukow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="display">
+            <div class="history" id="history"></div>
+            <input type="text" id="output" disabled />
+        </div>
+        <div class="buttons">
+            <!-- Basic operations -->
+            <button onclick="clearDisplay()">AC</button>
+            <button onclick="deleteLast()">DEL</button>
+            <button onclick="inputOperator('/')">/</button>
+            <button onclick="inputOperator('*')">*</button>
+
+            <button onclick="inputValue(7)">7</button>
+            <button onclick="inputValue(8)">8</button>
+            <button onclick="inputValue(9)">9</button>
+            <button onclick="inputOperator('-')">-</button>
+
+            <button onclick="inputValue(4)">4</button>
+            <button onclick="inputValue(5)">5</button>
+            <button onclick="inputValue(6)">6</button>
+            <button onclick="inputOperator('+')">+</button>
+
+            <button onclick="inputValue(1)">1</button>
+            <button onclick="inputValue(2)">2</button>
+            <button onclick="inputValue(3)">3</button>
+            <button onclick="calculate()">=</button>
+
+            <button onclick="inputValue(0)">0</button>
+            <button onclick="inputValue('.')">.</button>
+
+            <!-- Advanced features -->
+            <button onclick="inputAdvanced('sqrt')">√</button>
+            <button onclick="inputAdvanced('pow')">x^2</button>
+            <button onclick="inputAdvanced('sin')">sin</button>
+            <button onclick="inputAdvanced('cos')">cos</button>
+            <button onclick="inputAdvanced('tan')">tan</button>
+        </div>
+    </div>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
